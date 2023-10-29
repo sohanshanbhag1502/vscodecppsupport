@@ -2,19 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "simple",
-            "request": "launch",
-            "mainClass": "simple",
-            "projectName": "C++_8bcb633e"
-        },
-        {
             "name": "C/C++ Code Runner",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "python.exe",
             "args": [
-                "P:\\C++\\.vscode\\Crunner.py",
+                ".\\Crunner.py",
                 "${fileExtname}",
                 "${fileDirname}\\${fileBasename}",
                 "-o",
